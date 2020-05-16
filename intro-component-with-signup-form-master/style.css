@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/images/bg-intro-desktop.png);
+    max-height: 1440px;
+    background-color: hsl(0, 100%, 74%);
+    margin:auto;
+    height: 100%;
+}
+
+/*Postion of both the box*/
+#text{
+    float: left;
+    position: relative;
+    width:720px;
+}
+#box{
+    float: right;
+    margin-right:50px;
+}
+
+#text h1{
+    font-size: 50px;
+    color: white;
+    font-weight:900;
+    line-height:1em;
+    margin-right:50px;
+    margin-top: 300px;
+    margin-left:150px ;
+
+}
+
+#text p{
+    color: white;
+    font-size:16px; 
+    font-weight: 500;
+    margin-left:150px;
+}
+
+#box p{
+    border: 1px solid blueviolet;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 15px;
+    color:white;
+    text-align: center;
+    margin-right: 80px;
+    box-shadow: 0px 5px 3px grey;
+    padding: 20px 0px;
+    margin-top: 100px;
+}
+
+
+#box p:hover{
+    cursor: pointer;
+    background-color: hsl(248, 51%, 59%);
+}
+
+#box form{
+    background-color: white;
+    border: 1px solid white;
+    border-radius:10px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-right: 80px;
+    top: 100px;
+    width: 500px;
+    height:450px;
+    box-shadow: 0px 0px 20px rgb(29, 29, 29);
+    margin-top:40px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+input{
+    width: 80%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(112, 112, 112);
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+#free-btn{
+    background-color: hsl(154, 59%, 51%);
+    color:white;
+    width: 80%;
+    border: 2px solid green;
+    padding: 10px 10px;
+    margin-top: 20px;
+    border-radius:5px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform:uppercase;
+}
+
+#free-btn:hover{
+    cursor: pointer;
+    background-color:hsl(154, 94%, 35%);
+}
+
+
+#box span{
+    color:rgb(141, 141, 141);
+    font-size: 10px;
+}
+a{
+    cursor: pointer;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+#error_fname,#error_lname,#error_mail,#error_pass{    
+    color:  hsl(0, 100%, 74%) ;
+    text-align:right;
+    padding-left:45px;
+    font-family:cursive;
+    font-size:10px;
+    font-weight:900;
+    margin-right:40px
+}
+@media only screen and (max-width:475px){
+
+    #text{
+        width: 400px;
+    }
+    #box{
+        max-width:400px;
+    }
+    
+    #text h1{
+        position: relative;
+        top:-200px;
+        font-size:25px;
+        margin-left:90px;
+    }
+    
+    #text p{
+        position: relative;
+        top:-180px;
+        margin-left:20px;
+        text-align: center;
+        margin-right: 20px;
+        line-height:1.5rem;
+    }
+    #box p{
+        width:80%;
+        position: relative;
+        top:-200px;
+        margin: 50px  auto ;
+    }
+   
+    #box form{
+        width:300px;
+        height:400px;
+        margin:-150px auto;
+        box-shadow: 0px 0px 20px rgb(29, 29, 29);
+    }
+
+} 
