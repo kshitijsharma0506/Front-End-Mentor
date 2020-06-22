@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#colorstrip-cyan{
+    height: 0px;
+    border-bottom:solid 4px  hsl(180, 62%, 55%);    
+}
+
+
+#colorstrip-red{
+    height: 0px;
+    border-bottom:solid 4px hsl(0, 78%, 62%);    
+}
+
+
+#colorstrip-blue{
+    height: 0px;
+    border-bottom:solid 4px hsl(212, 86%, 64%);    
+}
+
+
+#colorstrip-yellow{
+    height: 0px;
+    border-bottom:solid 4px  hsl(34, 97%, 64%);    
+}
+
+@media only screen and (min-width:1000px){
+        
+    .super,.calc{
+        margin-top:150px;
+    }
+
+    .karma{
+        margin-top:-150px;
+    }
+    
+}
