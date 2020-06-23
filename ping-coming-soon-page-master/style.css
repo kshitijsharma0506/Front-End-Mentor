@@ -40,7 +40,7 @@ body{
     width:auto;
 }
 
-@media only screen and (max-width:475px){
+@media only screen and (max-width:675px){
     .img-small-box{
         height: 200px;
     }
