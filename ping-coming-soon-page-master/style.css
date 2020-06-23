@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.hero{
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+#email{
+    border: 2px solid hsl(223, 87%, 63%) ;
+    border-radius: 40px 40px 40px 40px;
+    padding-left: 20px !important;
+}
+
+.notify-btn{
+    background-color: hsl(223, 87%, 63%) !important;
+    text-transform: none !important;
+    margin-top: 20px !important;
+    border-radius:40px 40px 40px 40px !important ;
+}
+
+.footer .fa{
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 20px;
+    width: 60px;
+    cursor: pointer;
+    border: 3px solid #4272d8;
+    margin: 20px 10px 0px;
+}
+
+.img-small-box{
+    height:500px;
+    width:auto;
+}
+
+@media only screen and (max-width:475px){
+    .img-small-box{
+        height: 200px;
+    }
+    .notify-btn{
+        width: 100%;
+    }
+}
