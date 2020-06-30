@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.hero{
+    background-image: url(images/bg-header-desktop.png);
+    width: 100% !important;
+}
+
+.mypara{
+    margin-left: 280px ;
+    margin-right: 280px ;
+}
+
+button{
+    border-radius: 50px;
+    height: 35px !important;
+    width: 80%;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.shift{
+    margin-right: 40px ;
+}
+
+.footer{
+    background: rgb(240, 239, 239) !important  ;
+}
+
+.footer .col{
+    padding: 50px !important;
+}
+
+.footer .col p{
+    font-size: 18px;
+    margin-bottom:20px;
+    cursor: pointer;
+}
+
+.footer .col img{
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width:575px){
+    .hero{
+        background-image: url(images/bg-header-mobile.png);
+        width: 100% !important;
+    }
+        
+    .mypara{
+        margin-left: 0px !important ;
+        margin-right: 0px !important;
+    }
+
+    .img-comp{
+        height: 250px;
+    }
+    .img-device{
+        height:200px;
+    }
+}
